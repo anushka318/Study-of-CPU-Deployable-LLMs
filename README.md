@@ -18,3 +18,7 @@ GPT2_CoreCount: Has the GPT2 python notebooks, which were modified as required t
 GPT2Large_Pruning: Contains the codes use to run inference and benchmark the models with varying sparisty levels. Model pruning was performed using the code present in "GPT2_large_pruning.ipynb". The pruned models couldn't be included due to size restriction. Please modify the path in the inference code to match the location of pruned model. 
 
 Analysis_visualization: Final notebook with all the analysis performed
+
+Phi-1_GSM_latency_throughput_vs_RAM - This file is to calculate throughput and latency with variation of RAM
+qwen_quant.ipynb - Calculate accuracy for Qwen models on SVAMP datset
+gpt_med_GSM_latency_throughput_vs_mac.ipynb - This file is to calculate throughput and latency on different MAC PCs.
